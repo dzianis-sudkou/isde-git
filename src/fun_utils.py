@@ -5,11 +5,15 @@ import numpy as np
 def load_data(filename):
     """
     Load data from a csv file
+    ALREADY WORKING 
+
+    
 
     Parameters
-    ----------
+
     filename : string
         Filename to be loaded.
+
 
     Returns
     -------
