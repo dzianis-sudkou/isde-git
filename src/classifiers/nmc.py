@@ -38,4 +38,6 @@ class NMC(object):
         pass
 
     def predict(self, xts):
-        pass
+        dist = euclidean_distances(xts, self._centroids)
+        ypred = np.argmin(dist, axis=1)
+        return ypred
